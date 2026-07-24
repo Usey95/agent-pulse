@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "bcd2c0cf-820b-4347-9d0d-7cb5b91d534b",
+  "id": "d440749b-dcc0-412f-a488-215b7d387df1",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 57,
@@ -58,19 +58,19 @@
     {
       "slug": "primary-source-provenance",
       "name": "一手来源归属",
-      "score": 63,
-      "rawScore": 63,
+      "score": 62,
+      "rawScore": 62,
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 7388,
+      "sampleSize": 7461,
       "sampleTarget": 100,
-      "summary": "7388 条信号中 5581 条来自 primary/research/policy，898 条证据进入事件。",
+      "summary": "7461 条信号中 5611 条来自 primary/research/policy，908 条证据进入事件。",
       "evidence": {
-        "signals": 7388,
-        "direct": 7388,
-        "primary": 5581,
-        "linkedEvidence": 898,
+        "signals": 7461,
+        "direct": 7461,
+        "primary": 5611,
+        "linkedEvidence": 908,
         "linkedSourceCount": 94,
         "aggregatorDebt": 0
       },
@@ -94,8 +94,8 @@
         "degraded": 28,
         "failed": 68,
         "skipped": 53,
-        "latestRuns": 222,
-        "latestRunSuccess": 222,
+        "latestRuns": 217,
+        "latestRunSuccess": 217,
         "auditWindows": 3
       },
       "penalties": [],
@@ -156,12 +156,12 @@
       "scoreCap": 100,
       "weight": 8,
       "status": "measured",
-      "sampleSize": 222,
+      "sampleSize": 217,
       "sampleTarget": 100,
       "summary": "collector 耗时不是上游发布到页面可见的端到端延迟；以成功运行比例作为实时性估算。",
       "evidence": {
-        "latestSourceRuns": 222,
-        "latestRunSuccess": 222,
+        "latestSourceRuns": 217,
+        "latestRunSuccess": 217,
         "freshHealthySources": 143,
         "activeWithRecentSuccess": 125,
         "endToEndLatencySamples": 0
@@ -232,7 +232,7 @@
         "licenseDeclared": 415,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 781,
+        "totalEvents": 786,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "4 dimensions lack sufficient evidence; calibrated weighted score 63, evidence coverage 60%, final score 57",
-  "startedAt": "2026-07-24T06:06:25.021Z",
-  "finishedAt": "2026-07-24T06:06:25.133Z",
+  "startedAt": "2026-07-24T14:22:01.679Z",
+  "finishedAt": "2026-07-24T14:22:01.791Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",
@@ -747,7 +747,7 @@
     {
       "slug": "primary-source-provenance",
       "name": "一手来源归属",
-      "score": 63,
+      "score": 62,
       "status": "measured",
       "weightedGap": 2,
       "penalties": [],
@@ -755,13 +755,15 @@
     }
   ],
   "comparison": {
-    "passed": true,
+    "passed": false,
     "baselineScore": 57,
     "currentScore": 57,
     "scoreDelta": 0,
     "baselineEvidenceCoverage": 60,
     "currentEvidenceCoverage": 60,
     "evidenceCoverageDelta": 0,
-    "regressions": []
+    "regressions": [
+      "dimension primary-source-provenance regressed from 63 to 62"
+    ]
   }
 }

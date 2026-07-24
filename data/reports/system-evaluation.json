@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "d7fed1b6-384a-4d4b-82c2-8b36db4843fc",
+  "id": "bcd2c0cf-820b-4347-9d0d-7cb5b91d534b",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 57,
@@ -58,20 +58,20 @@
     {
       "slug": "primary-source-provenance",
       "name": "一手来源归属",
-      "score": 62,
-      "rawScore": 62,
+      "score": 63,
+      "rawScore": 63,
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 7085,
+      "sampleSize": 7388,
       "sampleTarget": 100,
-      "summary": "7085 条信号中 5341 条来自 primary/research/policy，820 条证据进入事件。",
+      "summary": "7388 条信号中 5581 条来自 primary/research/policy，898 条证据进入事件。",
       "evidence": {
-        "signals": 7085,
-        "direct": 7085,
-        "primary": 5341,
-        "linkedEvidence": 820,
-        "linkedSourceCount": 91,
+        "signals": 7388,
+        "direct": 7388,
+        "primary": 5581,
+        "linkedEvidence": 898,
+        "linkedSourceCount": 94,
         "aggregatorDebt": 0
       },
       "penalties": [],
@@ -94,8 +94,8 @@
         "degraded": 28,
         "failed": 68,
         "skipped": 53,
-        "latestRuns": 223,
-        "latestRunSuccess": 223,
+        "latestRuns": 222,
+        "latestRunSuccess": 222,
         "auditWindows": 3
       },
       "penalties": [],
@@ -117,7 +117,7 @@
         "primaryEvidence": 360,
         "multiSource": 4,
         "readyPublished": 343,
-        "averageEvidence": 1.04,
+        "averageEvidence": 1.05,
         "averageSelfReportedConfidence": 90
       },
       "penalties": [
@@ -156,12 +156,12 @@
       "scoreCap": 100,
       "weight": 8,
       "status": "measured",
-      "sampleSize": 223,
+      "sampleSize": 222,
       "sampleTarget": 100,
       "summary": "collector 耗时不是上游发布到页面可见的端到端延迟；以成功运行比例作为实时性估算。",
       "evidence": {
-        "latestSourceRuns": 223,
-        "latestRunSuccess": 223,
+        "latestSourceRuns": 222,
+        "latestRunSuccess": 222,
         "freshHealthySources": 143,
         "activeWithRecentSuccess": 125,
         "endToEndLatencySamples": 0
@@ -232,7 +232,7 @@
         "licenseDeclared": 415,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 729,
+        "totalEvents": 781,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "4 dimensions lack sufficient evidence; calibrated weighted score 63, evidence coverage 60%, final score 57",
-  "startedAt": "2026-07-23T12:56:02.470Z",
-  "finishedAt": "2026-07-23T12:56:02.545Z",
+  "startedAt": "2026-07-24T06:06:25.021Z",
+  "finishedAt": "2026-07-24T06:06:25.133Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",
@@ -747,7 +747,7 @@
     {
       "slug": "primary-source-provenance",
       "name": "一手来源归属",
-      "score": 62,
+      "score": 63,
       "status": "measured",
       "weightedGap": 2,
       "penalties": [],
@@ -755,15 +755,13 @@
     }
   ],
   "comparison": {
-    "passed": false,
-    "baselineScore": 56,
+    "passed": true,
+    "baselineScore": 57,
     "currentScore": 57,
-    "scoreDelta": 1,
+    "scoreDelta": 0,
     "baselineEvidenceCoverage": 60,
     "currentEvidenceCoverage": 60,
     "evidenceCoverageDelta": 0,
-    "regressions": [
-      "dimension primary-source-provenance regressed from 63 to 62"
-    ]
+    "regressions": []
   }
 }

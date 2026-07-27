@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "ece3d91c-d572-49f7-acb7-530e369cc7e3",
+  "id": "2e2e5e1c-72b8-4873-aeee-b680af83d39e",
   "releaseVersion": "0.11.1",
   "status": "partial",
-  "overallScore": 57,
-  "rawWeightedScore": 63,
-  "evidenceCoverage": 60,
+  "overallScore": 61,
+  "rawWeightedScore": 66,
+  "evidenceCoverage": 72,
   "dimensions": [
     {
       "slug": "source-coverage",
@@ -63,15 +63,15 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 7674,
+      "sampleSize": 7952,
       "sampleTarget": 100,
-      "summary": "7674 条信号中 5708 条来自 primary/research/policy，964 条证据进入事件。",
+      "summary": "7952 条信号中 5912 条来自 primary/research/policy，1045 条证据进入事件。",
       "evidence": {
-        "signals": 7674,
-        "direct": 7674,
-        "primary": 5708,
-        "linkedEvidence": 964,
-        "linkedSourceCount": 100,
+        "signals": 7952,
+        "direct": 7952,
+        "primary": 5912,
+        "linkedEvidence": 1045,
+        "linkedSourceCount": 108,
         "aggregatorDebt": 0
       },
       "penalties": [],
@@ -104,18 +104,18 @@
     {
       "slug": "confidence",
       "name": "事实置信度",
-      "score": 42,
-      "rawScore": 57,
-      "scoreCap": 42,
+      "score": 58,
+      "rawScore": 58,
+      "scoreCap": 100,
       "weight": 12,
-      "status": "insufficient_data",
+      "status": "measured",
       "sampleSize": 368,
       "sampleTarget": 30,
-      "summary": "368 个公开事件仅 4 个拥有多源证据，343 个通过当前就绪门禁；人工置信分只占 10%。",
+      "summary": "368 个公开事件仅 5 个拥有多源证据，343 个通过当前就绪门禁；人工置信分只占 10%。",
       "evidence": {
         "published": 368,
         "primaryEvidence": 360,
-        "multiSource": 4,
+        "multiSource": 5,
         "readyPublished": 343,
         "averageEvidence": 1.07,
         "averageSelfReportedConfidence": 90
@@ -140,7 +140,7 @@
         "published": 368,
         "fieldCompleteness": 100,
         "readyPublished": 343,
-        "multiSource": 4,
+        "multiSource": 5,
         "outcomeFeedback": 0
       },
       "penalties": [
@@ -196,17 +196,17 @@
     {
       "slug": "effectiveness",
       "name": "机会与行动效果",
-      "score": 19,
-      "rawScore": 19,
+      "score": 30,
+      "rawScore": 30,
       "scoreCap": 45,
       "weight": 8,
       "status": "insufficient_data",
       "sampleSize": 0,
       "sampleTarget": 30,
-      "summary": "19 条星探卡片的编辑状态不是用户行动结果，当前真实行动/产物复盘样本为 0。",
+      "summary": "31 条星探卡片的编辑状态不是用户行动结果，当前真实行动/产物复盘样本为 0。",
       "evidence": {
-        "ideas": 19,
-        "editorialAccepted": 19,
+        "ideas": 31,
+        "editorialAccepted": 23,
         "outcomeFeedback": 0,
         "completedArtifacts": 0
       },
@@ -232,7 +232,7 @@
         "licenseDeclared": 415,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 809,
+        "totalEvents": 866,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -684,9 +684,9 @@
       "evidence": "capability map links status, maturity, release and implementation evidence"
     }
   ],
-  "notes": "4 dimensions lack sufficient evidence; calibrated weighted score 63, evidence coverage 60%, final score 57",
-  "startedAt": "2026-07-26T14:07:42.701Z",
-  "finishedAt": "2026-07-26T14:07:42.823Z",
+  "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 66, evidence coverage 72%, final score 61",
+  "startedAt": "2026-07-27T15:23:32.624Z",
+  "finishedAt": "2026-07-27T15:23:32.742Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",
@@ -694,24 +694,13 @@
     {
       "slug": "effectiveness",
       "name": "机会与行动效果",
-      "score": 19,
+      "score": 30,
       "status": "insufficient_data",
-      "weightedGap": 5,
+      "weightedGap": 4,
       "penalties": [
         "无 30 日行动结果样本，分数上限 45"
       ],
       "nextAction": "增加 save/act/complete 反馈，30 日后按机会类型复盘真实产物和收益。"
-    },
-    {
-      "slug": "confidence",
-      "name": "事实置信度",
-      "score": 42,
-      "status": "insufficient_data",
-      "weightedGap": 5,
-      "penalties": [
-        "多源公开事件不足 10"
-      ],
-      "nextAction": "优先把核心事件补成独立多源证据，并建立 claim 级事实错误标注集。"
     },
     {
       "slug": "value",
@@ -723,6 +712,17 @@
         "缺少真实用户结果反馈，分数上限 55"
       ],
       "nextAction": "采集至少 30 条读后帮助度、保存/引用、行动与付费意愿反馈。"
+    },
+    {
+      "slug": "confidence",
+      "name": "事实置信度",
+      "score": 58,
+      "status": "measured",
+      "weightedGap": 3,
+      "penalties": [
+        "多源公开事件不足 10"
+      ],
+      "nextAction": "优先把核心事件补成独立多源证据，并建立 claim 级事实错误标注集。"
     },
     {
       "slug": "governance",
@@ -757,11 +757,11 @@
   "comparison": {
     "passed": true,
     "baselineScore": 57,
-    "currentScore": 57,
-    "scoreDelta": 0,
+    "currentScore": 61,
+    "scoreDelta": 4,
     "baselineEvidenceCoverage": 60,
-    "currentEvidenceCoverage": 60,
-    "evidenceCoverageDelta": 0,
+    "currentEvidenceCoverage": 72,
+    "evidenceCoverageDelta": 12,
     "regressions": []
   }
 }

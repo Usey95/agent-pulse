@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "2e2e5e1c-72b8-4873-aeee-b680af83d39e",
+  "id": "943d4c0a-e7e2-4ecc-80d9-353b7470acc0",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -58,20 +58,20 @@
     {
       "slug": "primary-source-provenance",
       "name": "一手来源归属",
-      "score": 62,
-      "rawScore": 62,
+      "score": 63,
+      "rawScore": 63,
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 7952,
+      "sampleSize": 8321,
       "sampleTarget": 100,
-      "summary": "7952 条信号中 5912 条来自 primary/research/policy，1045 条证据进入事件。",
+      "summary": "8321 条信号中 6191 条来自 primary/research/policy，1142 条证据进入事件。",
       "evidence": {
-        "signals": 7952,
-        "direct": 7952,
-        "primary": 5912,
-        "linkedEvidence": 1045,
-        "linkedSourceCount": 108,
+        "signals": 8321,
+        "direct": 8321,
+        "primary": 6191,
+        "linkedEvidence": 1142,
+        "linkedSourceCount": 110,
         "aggregatorDebt": 0
       },
       "penalties": [],
@@ -203,10 +203,10 @@
       "status": "insufficient_data",
       "sampleSize": 0,
       "sampleTarget": 30,
-      "summary": "31 条星探卡片的编辑状态不是用户行动结果，当前真实行动/产物复盘样本为 0。",
+      "summary": "32 条星探卡片的编辑状态不是用户行动结果，当前真实行动/产物复盘样本为 0。",
       "evidence": {
-        "ideas": 31,
-        "editorialAccepted": 23,
+        "ideas": 32,
+        "editorialAccepted": 25,
         "outcomeFeedback": 0,
         "completedArtifacts": 0
       },
@@ -219,7 +219,7 @@
       "slug": "governance",
       "name": "安全与治理",
       "score": 60,
-      "rawScore": 88,
+      "rawScore": 87,
       "scoreCap": 60,
       "weight": 8,
       "status": "insufficient_data",
@@ -232,7 +232,7 @@
         "licenseDeclared": 415,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 866,
+        "totalEvents": 948,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 66, evidence coverage 72%, final score 61",
-  "startedAt": "2026-07-27T15:23:32.624Z",
-  "finishedAt": "2026-07-27T15:23:32.742Z",
+  "startedAt": "2026-07-28T14:48:59.791Z",
+  "finishedAt": "2026-07-28T14:48:59.921Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",
@@ -747,7 +747,7 @@
     {
       "slug": "primary-source-provenance",
       "name": "一手来源归属",
-      "score": 62,
+      "score": 63,
       "status": "measured",
       "weightedGap": 2,
       "penalties": [],
@@ -756,12 +756,12 @@
   ],
   "comparison": {
     "passed": true,
-    "baselineScore": 57,
+    "baselineScore": 61,
     "currentScore": 61,
-    "scoreDelta": 4,
-    "baselineEvidenceCoverage": 60,
+    "scoreDelta": 0,
+    "baselineEvidenceCoverage": 72,
     "currentEvidenceCoverage": 72,
-    "evidenceCoverageDelta": 12,
+    "evidenceCoverageDelta": 0,
     "regressions": []
   }
 }

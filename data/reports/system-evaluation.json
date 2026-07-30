@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "ee6c16f9-f48f-4a03-95de-f0550b62a491",
+  "id": "a9227562-5877-4ab0-a9cd-846295a104d5",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -63,15 +63,15 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 8692,
+      "sampleSize": 9048,
       "sampleTarget": 100,
-      "summary": "8692 条信号中 6472 条来自 primary/research/policy，1239 条证据进入事件。",
+      "summary": "9048 条信号中 6734 条来自 primary/research/policy，1335 条证据进入事件。",
       "evidence": {
-        "signals": 8692,
-        "direct": 8692,
-        "primary": 6472,
-        "linkedEvidence": 1239,
-        "linkedSourceCount": 112,
+        "signals": 9048,
+        "direct": 9048,
+        "primary": 6734,
+        "linkedEvidence": 1335,
+        "linkedSourceCount": 116,
         "aggregatorDebt": 0
       },
       "penalties": [],
@@ -206,7 +206,7 @@
       "summary": "32 条星探卡片的编辑状态不是用户行动结果，当前真实行动/产物复盘样本为 0。",
       "evidence": {
         "ideas": 32,
-        "editorialAccepted": 26,
+        "editorialAccepted": 27,
         "outcomeFeedback": 0,
         "completedArtifacts": 0
       },
@@ -219,7 +219,7 @@
       "slug": "governance",
       "name": "安全与治理",
       "score": 60,
-      "rawScore": 87,
+      "rawScore": 86,
       "scoreCap": 60,
       "weight": 8,
       "status": "insufficient_data",
@@ -232,7 +232,7 @@
         "licenseDeclared": 415,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 1025,
+        "totalEvents": 1097,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 66, evidence coverage 72%, final score 61",
-  "startedAt": "2026-07-29T14:39:53.920Z",
-  "finishedAt": "2026-07-29T14:39:54.051Z",
+  "startedAt": "2026-07-30T14:42:39.166Z",
+  "finishedAt": "2026-07-30T14:42:39.294Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",

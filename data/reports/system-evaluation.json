@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "a9227562-5877-4ab0-a9cd-846295a104d5",
+  "id": "179f5142-e4a4-41a1-886a-62a377cd56f6",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -63,15 +63,15 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 9048,
+      "sampleSize": 9399,
       "sampleTarget": 100,
-      "summary": "9048 条信号中 6734 条来自 primary/research/policy，1335 条证据进入事件。",
+      "summary": "9399 条信号中 6998 条来自 primary/research/policy，1452 条证据进入事件。",
       "evidence": {
-        "signals": 9048,
-        "direct": 9048,
-        "primary": 6734,
-        "linkedEvidence": 1335,
-        "linkedSourceCount": 116,
+        "signals": 9399,
+        "direct": 9399,
+        "primary": 6998,
+        "linkedEvidence": 1452,
+        "linkedSourceCount": 124,
         "aggregatorDebt": 0
       },
       "penalties": [],
@@ -206,7 +206,7 @@
       "summary": "32 条星探卡片的编辑状态不是用户行动结果，当前真实行动/产物复盘样本为 0。",
       "evidence": {
         "ideas": 32,
-        "editorialAccepted": 27,
+        "editorialAccepted": 28,
         "outcomeFeedback": 0,
         "completedArtifacts": 0
       },
@@ -232,7 +232,7 @@
         "licenseDeclared": 415,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 1097,
+        "totalEvents": 1168,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 66, evidence coverage 72%, final score 61",
-  "startedAt": "2026-07-30T14:42:39.166Z",
-  "finishedAt": "2026-07-30T14:42:39.294Z",
+  "startedAt": "2026-07-31T14:46:22.327Z",
+  "finishedAt": "2026-07-31T14:46:22.454Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",

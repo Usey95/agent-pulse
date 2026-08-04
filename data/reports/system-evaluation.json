@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "93971122-2d90-4784-8680-b0f67fe54cd4",
+  "id": "dc1b384d-bcff-4dff-91a8-15e2d1f9c1a4",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -63,15 +63,15 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 9918,
+      "sampleSize": 10269,
       "sampleTarget": 100,
-      "summary": "9918 条信号中 7325 条来自 primary/research/policy，1591 条证据进入事件。",
+      "summary": "10269 条信号中 7592 条来自 primary/research/policy，1696 条证据进入事件。",
       "evidence": {
-        "signals": 9918,
-        "direct": 9918,
-        "primary": 7325,
-        "linkedEvidence": 1591,
-        "linkedSourceCount": 129,
+        "signals": 10269,
+        "direct": 10269,
+        "primary": 7592,
+        "linkedEvidence": 1696,
+        "linkedSourceCount": 132,
         "aggregatorDebt": 0
       },
       "penalties": [],
@@ -232,7 +232,7 @@
         "licenseDeclared": 415,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 1260,
+        "totalEvents": 1341,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 66, evidence coverage 72%, final score 61",
-  "startedAt": "2026-08-03T15:26:50.564Z",
-  "finishedAt": "2026-08-03T15:26:50.699Z",
+  "startedAt": "2026-08-04T14:49:49.522Z",
+  "finishedAt": "2026-08-04T14:49:49.675Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",

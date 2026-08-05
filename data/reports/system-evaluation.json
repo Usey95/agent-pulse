@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "dc1b384d-bcff-4dff-91a8-15e2d1f9c1a4",
+  "id": "4caf06e4-9542-46a4-9cfc-06262c52cf8a",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -63,15 +63,15 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 10269,
+      "sampleSize": 10638,
       "sampleTarget": 100,
-      "summary": "10269 条信号中 7592 条来自 primary/research/policy，1696 条证据进入事件。",
+      "summary": "10638 条信号中 7870 条来自 primary/research/policy，1796 条证据进入事件。",
       "evidence": {
-        "signals": 10269,
-        "direct": 10269,
-        "primary": 7592,
-        "linkedEvidence": 1696,
-        "linkedSourceCount": 132,
+        "signals": 10638,
+        "direct": 10638,
+        "primary": 7870,
+        "linkedEvidence": 1796,
+        "linkedSourceCount": 134,
         "aggregatorDebt": 0
       },
       "penalties": [],
@@ -181,14 +181,14 @@
       "status": "measured",
       "sampleSize": 265,
       "sampleTarget": 100,
-      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 87 个。",
+      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 86 个。",
       "evidence": {
         "healthy": 265,
         "freshHealthy": 143,
         "active": 127,
         "activeWithRecentSuccess": 125,
         "published": 368,
-        "recentPublished": 87
+        "recentPublished": 86
       },
       "penalties": [],
       "nextAction": "按 cadence 衡量来源 freshness lag，并补齐从事件发生到页面发布的延迟。"
@@ -232,7 +232,7 @@
         "licenseDeclared": 415,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 1341,
+        "totalEvents": 1417,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 66, evidence coverage 72%, final score 61",
-  "startedAt": "2026-08-04T14:49:49.522Z",
-  "finishedAt": "2026-08-04T14:49:49.675Z",
+  "startedAt": "2026-08-05T14:43:55.325Z",
+  "finishedAt": "2026-08-05T14:43:55.454Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",

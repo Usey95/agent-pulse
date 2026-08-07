@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "dcef5709-1ad7-4f91-9a30-2e1e98c52954",
+  "id": "21563960-3059-4446-bde3-a279d74950c5",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -58,20 +58,20 @@
     {
       "slug": "primary-source-provenance",
       "name": "一手来源归属",
-      "score": 63,
-      "rawScore": 63,
+      "score": 64,
+      "rawScore": 64,
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 10995,
+      "sampleSize": 11331,
       "sampleTarget": 100,
-      "summary": "10995 条信号中 8132 条来自 primary/research/policy，1899 条证据进入事件。",
+      "summary": "11331 条信号中 8387 条来自 primary/research/policy，1978 条证据进入事件。",
       "evidence": {
-        "signals": 10995,
-        "direct": 10995,
-        "primary": 8132,
-        "linkedEvidence": 1899,
-        "linkedSourceCount": 138,
+        "signals": 11331,
+        "direct": 11331,
+        "primary": 8387,
+        "linkedEvidence": 1978,
+        "linkedSourceCount": 140,
         "aggregatorDebt": 0
       },
       "penalties": [],
@@ -174,21 +174,21 @@
     {
       "slug": "timeliness",
       "name": "内容时效性",
-      "score": 60,
-      "rawScore": 60,
+      "score": 59,
+      "rawScore": 59,
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
       "sampleSize": 265,
       "sampleTarget": 100,
-      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 86 个。",
+      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 82 个。",
       "evidence": {
         "healthy": 265,
         "freshHealthy": 143,
         "active": 127,
         "activeWithRecentSuccess": 125,
         "published": 368,
-        "recentPublished": 86
+        "recentPublished": 82
       },
       "penalties": [],
       "nextAction": "按 cadence 衡量来源 freshness lag，并补齐从事件发生到页面发布的延迟。"
@@ -219,7 +219,7 @@
       "slug": "governance",
       "name": "安全与治理",
       "score": 60,
-      "rawScore": 85,
+      "rawScore": 84,
       "scoreCap": 60,
       "weight": 8,
       "status": "insufficient_data",
@@ -232,7 +232,7 @@
         "licenseDeclared": 415,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 1491,
+        "totalEvents": 1547,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 66, evidence coverage 72%, final score 61",
-  "startedAt": "2026-08-06T14:44:41.920Z",
-  "finishedAt": "2026-08-06T14:44:42.082Z",
+  "startedAt": "2026-08-07T13:48:43.408Z",
+  "finishedAt": "2026-08-07T13:48:43.585Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",
@@ -725,6 +725,15 @@
       "nextAction": "优先把核心事件补成独立多源证据，并建立 claim 级事实错误标注集。"
     },
     {
+      "slug": "timeliness",
+      "name": "内容时效性",
+      "score": 59,
+      "status": "measured",
+      "weightedGap": 2,
+      "penalties": [],
+      "nextAction": "按 cadence 衡量来源 freshness lag，并补齐从事件发生到页面发布的延迟。"
+    },
+    {
       "slug": "governance",
       "name": "安全与治理",
       "score": 60,
@@ -736,18 +745,9 @@
       "nextAction": "增加 audit log、策略版本、release snapshot hash 与定期回滚演练。"
     },
     {
-      "slug": "timeliness",
-      "name": "内容时效性",
-      "score": 60,
-      "status": "measured",
-      "weightedGap": 2,
-      "penalties": [],
-      "nextAction": "按 cadence 衡量来源 freshness lag，并补齐从事件发生到页面发布的延迟。"
-    },
-    {
       "slug": "primary-source-provenance",
       "name": "一手来源归属",
-      "score": 63,
+      "score": 64,
       "status": "measured",
       "weightedGap": 2,
       "penalties": [],
@@ -755,13 +755,15 @@
     }
   ],
   "comparison": {
-    "passed": true,
+    "passed": false,
     "baselineScore": 61,
     "currentScore": 61,
     "scoreDelta": 0,
     "baselineEvidenceCoverage": 72,
     "currentEvidenceCoverage": 72,
     "evidenceCoverageDelta": 0,
-    "regressions": []
+    "regressions": [
+      "dimension timeliness regressed from 60 to 59"
+    ]
   }
 }

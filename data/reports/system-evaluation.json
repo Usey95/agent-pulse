@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "21563960-3059-4446-bde3-a279d74950c5",
+  "id": "3721d6c1-2399-4fe5-8c99-801d6eae001a",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -63,15 +63,15 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 11331,
+      "sampleSize": 11473,
       "sampleTarget": 100,
-      "summary": "11331 条信号中 8387 条来自 primary/research/policy，1978 条证据进入事件。",
+      "summary": "11473 条信号中 8472 条来自 primary/research/policy，2031 条证据进入事件。",
       "evidence": {
-        "signals": 11331,
-        "direct": 11331,
-        "primary": 8387,
-        "linkedEvidence": 1978,
-        "linkedSourceCount": 140,
+        "signals": 11473,
+        "direct": 11473,
+        "primary": 8472,
+        "linkedEvidence": 2031,
+        "linkedSourceCount": 141,
         "aggregatorDebt": 0
       },
       "penalties": [],
@@ -181,14 +181,14 @@
       "status": "measured",
       "sampleSize": 265,
       "sampleTarget": 100,
-      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 82 个。",
+      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 74 个。",
       "evidence": {
         "healthy": 265,
         "freshHealthy": 143,
         "active": 127,
         "activeWithRecentSuccess": 125,
         "published": 368,
-        "recentPublished": 82
+        "recentPublished": 74
       },
       "penalties": [],
       "nextAction": "按 cadence 衡量来源 freshness lag，并补齐从事件发生到页面发布的延迟。"
@@ -232,7 +232,7 @@
         "licenseDeclared": 415,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 1547,
+        "totalEvents": 1578,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 66, evidence coverage 72%, final score 61",
-  "startedAt": "2026-08-07T13:48:43.408Z",
-  "finishedAt": "2026-08-07T13:48:43.585Z",
+  "startedAt": "2026-08-08T13:21:23.661Z",
+  "finishedAt": "2026-08-08T13:21:23.814Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",
@@ -755,15 +755,13 @@
     }
   ],
   "comparison": {
-    "passed": false,
+    "passed": true,
     "baselineScore": 61,
     "currentScore": 61,
     "scoreDelta": 0,
     "baselineEvidenceCoverage": 72,
     "currentEvidenceCoverage": 72,
     "evidenceCoverageDelta": 0,
-    "regressions": [
-      "dimension timeliness regressed from 60 to 59"
-    ]
+    "regressions": []
   }
 }

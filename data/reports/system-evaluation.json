@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "3721d6c1-2399-4fe5-8c99-801d6eae001a",
+  "id": "d964bd34-9ed2-4a03-a7e7-f32d9adc959e",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -58,19 +58,19 @@
     {
       "slug": "primary-source-provenance",
       "name": "一手来源归属",
-      "score": 64,
-      "rawScore": 64,
+      "score": 63,
+      "rawScore": 63,
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 11473,
+      "sampleSize": 11558,
       "sampleTarget": 100,
-      "summary": "11473 条信号中 8472 条来自 primary/research/policy，2031 条证据进入事件。",
+      "summary": "11558 条信号中 8503 条来自 primary/research/policy，2049 条证据进入事件。",
       "evidence": {
-        "signals": 11473,
-        "direct": 11473,
-        "primary": 8472,
-        "linkedEvidence": 2031,
+        "signals": 11558,
+        "direct": 11558,
+        "primary": 8503,
+        "linkedEvidence": 2049,
         "linkedSourceCount": 141,
         "aggregatorDebt": 0
       },
@@ -232,7 +232,7 @@
         "licenseDeclared": 415,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 1578,
+        "totalEvents": 1588,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 66, evidence coverage 72%, final score 61",
-  "startedAt": "2026-08-08T13:21:23.661Z",
-  "finishedAt": "2026-08-08T13:21:23.814Z",
+  "startedAt": "2026-08-09T13:25:36.324Z",
+  "finishedAt": "2026-08-09T13:25:36.499Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",
@@ -747,7 +747,7 @@
     {
       "slug": "primary-source-provenance",
       "name": "一手来源归属",
-      "score": 64,
+      "score": 63,
       "status": "measured",
       "weightedGap": 2,
       "penalties": [],
@@ -755,13 +755,15 @@
     }
   ],
   "comparison": {
-    "passed": true,
+    "passed": false,
     "baselineScore": 61,
     "currentScore": 61,
     "scoreDelta": 0,
     "baselineEvidenceCoverage": 72,
     "currentEvidenceCoverage": 72,
     "evidenceCoverageDelta": 0,
-    "regressions": []
+    "regressions": [
+      "dimension primary-source-provenance regressed from 64 to 63"
+    ]
   }
 }

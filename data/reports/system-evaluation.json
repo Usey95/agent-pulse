@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "d964bd34-9ed2-4a03-a7e7-f32d9adc959e",
+  "id": "fd3667ce-a35b-4c1d-9ceb-a18daab95fb8",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -63,15 +63,15 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 11558,
+      "sampleSize": 11842,
       "sampleTarget": 100,
-      "summary": "11558 条信号中 8503 条来自 primary/research/policy，2049 条证据进入事件。",
+      "summary": "11842 条信号中 8720 条来自 primary/research/policy，2105 条证据进入事件。",
       "evidence": {
-        "signals": 11558,
-        "direct": 11558,
-        "primary": 8503,
-        "linkedEvidence": 2049,
-        "linkedSourceCount": 141,
+        "signals": 11842,
+        "direct": 11842,
+        "primary": 8720,
+        "linkedEvidence": 2105,
+        "linkedSourceCount": 142,
         "aggregatorDebt": 0
       },
       "penalties": [],
@@ -174,21 +174,21 @@
     {
       "slug": "timeliness",
       "name": "内容时效性",
-      "score": 59,
-      "rawScore": 59,
+      "score": 58,
+      "rawScore": 58,
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
       "sampleSize": 265,
       "sampleTarget": 100,
-      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 74 个。",
+      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 60 个。",
       "evidence": {
         "healthy": 265,
         "freshHealthy": 143,
         "active": 127,
         "activeWithRecentSuccess": 125,
         "published": 368,
-        "recentPublished": 74
+        "recentPublished": 60
       },
       "penalties": [],
       "nextAction": "按 cadence 衡量来源 freshness lag，并补齐从事件发生到页面发布的延迟。"
@@ -232,7 +232,7 @@
         "licenseDeclared": 415,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 1588,
+        "totalEvents": 1635,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 66, evidence coverage 72%, final score 61",
-  "startedAt": "2026-08-09T13:25:36.324Z",
-  "finishedAt": "2026-08-09T13:25:36.499Z",
+  "startedAt": "2026-08-10T13:54:26.193Z",
+  "finishedAt": "2026-08-10T13:54:26.315Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",
@@ -727,7 +727,7 @@
     {
       "slug": "timeliness",
       "name": "内容时效性",
-      "score": 59,
+      "score": 58,
       "status": "measured",
       "weightedGap": 2,
       "penalties": [],
@@ -763,7 +763,7 @@
     "currentEvidenceCoverage": 72,
     "evidenceCoverageDelta": 0,
     "regressions": [
-      "dimension primary-source-provenance regressed from 64 to 63"
+      "dimension timeliness regressed from 59 to 58"
     ]
   }
 }

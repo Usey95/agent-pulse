@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "f9e67fc2-f220-4535-895d-141be7aeb8bd",
+  "id": "46923af5-a893-4e87-8a68-3e4a611c1b01",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -17,9 +17,9 @@
       "status": "measured",
       "sampleSize": 127,
       "sampleTarget": 100,
-      "summary": "415 个目录源中 265 个单轮健康、94 个处于隔离观察，只有 127 个既 active 且健康；E2/E3 不等同生产覆盖。",
+      "summary": "416 个目录源中 265 个单轮健康、94 个处于隔离观察，只有 127 个既 active 且健康；E2/E3 不等同生产覆盖。",
       "evidence": {
-        "catalog": 415,
+        "catalog": 416,
         "checked": 414,
         "healthy": 265,
         "degraded": 28,
@@ -63,14 +63,14 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 12184,
+      "sampleSize": 12540,
       "sampleTarget": 100,
-      "summary": "12184 条信号中 8983 条来自 primary/research/policy，2206 条证据进入事件。",
+      "summary": "12540 条信号中 9252 条来自 primary/research/policy，2308 条证据进入事件。",
       "evidence": {
-        "signals": 12184,
-        "direct": 12184,
-        "primary": 8983,
-        "linkedEvidence": 2206,
+        "signals": 12540,
+        "direct": 12540,
+        "primary": 9252,
+        "linkedEvidence": 2308,
         "linkedSourceCount": 145,
         "aggregatorDebt": 0
       },
@@ -181,14 +181,14 @@
       "status": "measured",
       "sampleSize": 265,
       "sampleTarget": 100,
-      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 52 个。",
+      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 47 个。",
       "evidence": {
         "healthy": 265,
         "freshHealthy": 143,
         "active": 127,
         "activeWithRecentSuccess": 125,
         "published": 368,
-        "recentPublished": 52
+        "recentPublished": 47
       },
       "penalties": [],
       "nextAction": "按 cadence 衡量来源 freshness lag，并补齐从事件发生到页面发布的延迟。"
@@ -203,10 +203,10 @@
       "status": "insufficient_data",
       "sampleSize": 0,
       "sampleTarget": 30,
-      "summary": "39 条星探卡片的编辑状态不是用户行动结果，当前真实行动/产物复盘样本为 0。",
+      "summary": "42 条星探卡片的编辑状态不是用户行动结果，当前真实行动/产物复盘样本为 0。",
       "evidence": {
-        "ideas": 39,
-        "editorialAccepted": 31,
+        "ideas": 42,
+        "editorialAccepted": 34,
         "outcomeFeedback": 0,
         "completedArtifacts": 0
       },
@@ -224,15 +224,15 @@
       "weight": 8,
       "status": "insufficient_data",
       "sampleSize": 414,
-      "sampleTarget": 415,
+      "sampleTarget": 416,
       "summary": "字段存在只证明策略已声明，不证明策略有效；当前缺少策略版本回放、发布回滚演练和审计抽检。",
       "evidence": {
-        "sources": 415,
+        "sources": 416,
         "checked": 414,
-        "licenseDeclared": 415,
+        "licenseDeclared": 416,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 1716,
+        "totalEvents": 1794,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 66, evidence coverage 72%, final score 61",
-  "startedAt": "2026-08-11T13:53:04.556Z",
-  "finishedAt": "2026-08-11T13:53:04.732Z",
+  "startedAt": "2026-08-12T13:58:10.248Z",
+  "finishedAt": "2026-08-12T13:58:10.433Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",
@@ -755,15 +755,13 @@
     }
   ],
   "comparison": {
-    "passed": false,
+    "passed": true,
     "baselineScore": 61,
     "currentScore": 61,
     "scoreDelta": 0,
     "baselineEvidenceCoverage": 72,
     "currentEvidenceCoverage": 72,
     "evidenceCoverageDelta": 0,
-    "regressions": [
-      "dimension timeliness regressed from 58 to 57"
-    ]
+    "regressions": []
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "1758235b-f7dc-491f-aae3-83bd2c753858",
+  "id": "953f3026-dd6e-483e-94a0-fa37a9b98081",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -15,9 +15,9 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 127,
+      "sampleSize": 126,
       "sampleTarget": 100,
-      "summary": "416 个目录源中 265 个单轮健康、94 个处于隔离观察，只有 127 个既 active 且健康；E2/E3 不等同生产覆盖。",
+      "summary": "416 个目录源中 265 个单轮健康、94 个处于隔离观察，只有 126 个既 active 且健康；E2/E3 不等同生产覆盖。",
       "evidence": {
         "catalog": 416,
         "checked": 414,
@@ -25,8 +25,8 @@
         "degraded": 28,
         "failed": 68,
         "skipped": 53,
-        "active": 127,
-        "activeHealthy": 127,
+        "active": 126,
+        "activeHealthy": 126,
         "observingHealthy": 94,
         "healthyCategories": 13,
         "healthyChina": 60
@@ -63,14 +63,14 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 13292,
+      "sampleSize": 13366,
       "sampleTarget": 100,
-      "summary": "13292 条信号中 9800 条来自 primary/research/policy，2521 条证据进入事件。",
+      "summary": "13366 条信号中 9831 条来自 primary/research/policy，2545 条证据进入事件。",
       "evidence": {
-        "signals": 13292,
-        "direct": 13292,
-        "primary": 9800,
-        "linkedEvidence": 2521,
+        "signals": 13366,
+        "direct": 13366,
+        "primary": 9831,
+        "linkedEvidence": 2545,
         "linkedSourceCount": 147,
         "aggregatorDebt": 0
       },
@@ -163,7 +163,7 @@
         "latestSourceRuns": 217,
         "latestRunSuccess": 216,
         "freshHealthySources": 143,
-        "activeWithRecentSuccess": 125,
+        "activeWithRecentSuccess": 124,
         "endToEndLatencySamples": 0
       },
       "penalties": [
@@ -174,21 +174,21 @@
     {
       "slug": "timeliness",
       "name": "内容时效性",
-      "score": 55,
-      "rawScore": 55,
+      "score": 54,
+      "rawScore": 54,
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
       "sampleSize": 265,
       "sampleTarget": 100,
-      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 20 个。",
+      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 10 个。",
       "evidence": {
         "healthy": 265,
         "freshHealthy": 143,
-        "active": 127,
-        "activeWithRecentSuccess": 125,
+        "active": 126,
+        "activeWithRecentSuccess": 124,
         "published": 368,
-        "recentPublished": 20
+        "recentPublished": 10
       },
       "penalties": [],
       "nextAction": "按 cadence 衡量来源 freshness lag，并补齐从事件发生到页面发布的延迟。"
@@ -203,10 +203,10 @@
       "status": "insufficient_data",
       "sampleSize": 0,
       "sampleTarget": 30,
-      "summary": "45 条星探卡片的编辑状态不是用户行动结果，当前真实行动/产物复盘样本为 0。",
+      "summary": "46 条星探卡片的编辑状态不是用户行动结果，当前真实行动/产物复盘样本为 0。",
       "evidence": {
-        "ideas": 45,
-        "editorialAccepted": 37,
+        "ideas": 46,
+        "editorialAccepted": 39,
         "outcomeFeedback": 0,
         "completedArtifacts": 0
       },
@@ -232,7 +232,7 @@
         "licenseDeclared": 416,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 1925,
+        "totalEvents": 1940,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 65, evidence coverage 72%, final score 61",
-  "startedAt": "2026-08-15T13:07:56.294Z",
-  "finishedAt": "2026-08-15T13:07:56.480Z",
+  "startedAt": "2026-08-16T13:09:33.119Z",
+  "finishedAt": "2026-08-16T13:09:33.307Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",
@@ -716,7 +716,7 @@
     {
       "slug": "timeliness",
       "name": "内容时效性",
-      "score": 55,
+      "score": 54,
       "status": "measured",
       "weightedGap": 3,
       "penalties": [],
@@ -763,9 +763,7 @@
     "currentEvidenceCoverage": 72,
     "evidenceCoverageDelta": 0,
     "regressions": [
-      "raw weighted score regressed from 66 to 65",
-      "dimension realtime regressed from 86 to 85",
-      "dimension timeliness regressed from 56 to 55"
+      "dimension timeliness regressed from 55 to 54"
     ]
   }
 }

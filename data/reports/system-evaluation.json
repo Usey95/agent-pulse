@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "953f3026-dd6e-483e-94a0-fa37a9b98081",
+  "id": "4f191968-8897-44b4-9208-bf865052062d",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -63,14 +63,14 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 13366,
+      "sampleSize": 13628,
       "sampleTarget": 100,
-      "summary": "13366 条信号中 9831 条来自 primary/research/policy，2545 条证据进入事件。",
+      "summary": "13628 条信号中 10023 条来自 primary/research/policy，2596 条证据进入事件。",
       "evidence": {
-        "signals": 13366,
-        "direct": 13366,
-        "primary": 9831,
-        "linkedEvidence": 2545,
+        "signals": 13628,
+        "direct": 13628,
+        "primary": 10023,
+        "linkedEvidence": 2596,
         "linkedSourceCount": 147,
         "aggregatorDebt": 0
       },
@@ -206,7 +206,7 @@
       "summary": "46 条星探卡片的编辑状态不是用户行动结果，当前真实行动/产物复盘样本为 0。",
       "evidence": {
         "ideas": 46,
-        "editorialAccepted": 39,
+        "editorialAccepted": 40,
         "outcomeFeedback": 0,
         "completedArtifacts": 0
       },
@@ -232,7 +232,7 @@
         "licenseDeclared": 416,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 1940,
+        "totalEvents": 1987,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 65, evidence coverage 72%, final score 61",
-  "startedAt": "2026-08-16T13:09:33.119Z",
-  "finishedAt": "2026-08-16T13:09:33.307Z",
+  "startedAt": "2026-08-17T13:16:25.201Z",
+  "finishedAt": "2026-08-17T13:16:25.391Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",
@@ -755,15 +755,13 @@
     }
   ],
   "comparison": {
-    "passed": false,
+    "passed": true,
     "baselineScore": 61,
     "currentScore": 61,
     "scoreDelta": 0,
     "baselineEvidenceCoverage": 72,
     "currentEvidenceCoverage": 72,
     "evidenceCoverageDelta": 0,
-    "regressions": [
-      "dimension timeliness regressed from 55 to 54"
-    ]
+    "regressions": []
   }
 }

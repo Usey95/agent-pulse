@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "4f191968-8897-44b4-9208-bf865052062d",
+  "id": "fabf8106-d285-4e47-9653-739868866378",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -17,9 +17,9 @@
       "status": "measured",
       "sampleSize": 126,
       "sampleTarget": 100,
-      "summary": "416 个目录源中 265 个单轮健康、94 个处于隔离观察，只有 126 个既 active 且健康；E2/E3 不等同生产覆盖。",
+      "summary": "417 个目录源中 265 个单轮健康、94 个处于隔离观察，只有 126 个既 active 且健康；E2/E3 不等同生产覆盖。",
       "evidence": {
-        "catalog": 416,
+        "catalog": 417,
         "checked": 414,
         "healthy": 265,
         "degraded": 28,
@@ -63,15 +63,15 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 13628,
+      "sampleSize": 14062,
       "sampleTarget": 100,
-      "summary": "13628 条信号中 10023 条来自 primary/research/policy，2596 条证据进入事件。",
+      "summary": "14062 条信号中 10334 条来自 primary/research/policy，2721 条证据进入事件。",
       "evidence": {
-        "signals": 13628,
-        "direct": 13628,
-        "primary": 10023,
-        "linkedEvidence": 2596,
-        "linkedSourceCount": 147,
+        "signals": 14062,
+        "direct": 14062,
+        "primary": 10334,
+        "linkedEvidence": 2721,
+        "linkedSourceCount": 152,
         "aggregatorDebt": 0
       },
       "penalties": [],
@@ -206,7 +206,7 @@
       "summary": "46 条星探卡片的编辑状态不是用户行动结果，当前真实行动/产物复盘样本为 0。",
       "evidence": {
         "ideas": 46,
-        "editorialAccepted": 40,
+        "editorialAccepted": 41,
         "outcomeFeedback": 0,
         "completedArtifacts": 0
       },
@@ -224,15 +224,15 @@
       "weight": 8,
       "status": "insufficient_data",
       "sampleSize": 414,
-      "sampleTarget": 416,
+      "sampleTarget": 417,
       "summary": "字段存在只证明策略已声明，不证明策略有效；当前缺少策略版本回放、发布回滚演练和审计抽检。",
       "evidence": {
-        "sources": 416,
+        "sources": 417,
         "checked": 414,
-        "licenseDeclared": 416,
+        "licenseDeclared": 417,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 1987,
+        "totalEvents": 2085,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 65, evidence coverage 72%, final score 61",
-  "startedAt": "2026-08-17T13:16:25.201Z",
-  "finishedAt": "2026-08-17T13:16:25.391Z",
+  "startedAt": "2026-08-19T13:19:02.374Z",
+  "finishedAt": "2026-08-19T13:19:02.526Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "fabf8106-d285-4e47-9653-739868866378",
+  "id": "57b50e2c-5335-438f-a485-49ae267bf63d",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -63,15 +63,15 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 14062,
+      "sampleSize": 14419,
       "sampleTarget": 100,
-      "summary": "14062 条信号中 10334 条来自 primary/research/policy，2721 条证据进入事件。",
+      "summary": "14419 条信号中 10600 条来自 primary/research/policy，2830 条证据进入事件。",
       "evidence": {
-        "signals": 14062,
-        "direct": 14062,
-        "primary": 10334,
-        "linkedEvidence": 2721,
-        "linkedSourceCount": 152,
+        "signals": 14419,
+        "direct": 14419,
+        "primary": 10600,
+        "linkedEvidence": 2830,
+        "linkedSourceCount": 154,
         "aggregatorDebt": 0
       },
       "penalties": [],
@@ -95,7 +95,7 @@
         "failed": 68,
         "skipped": 53,
         "latestRuns": 217,
-        "latestRunSuccess": 216,
+        "latestRunSuccess": 217,
         "auditWindows": 3
       },
       "penalties": [],
@@ -151,8 +151,8 @@
     {
       "slug": "realtime",
       "name": "端到端实时性",
-      "score": 85,
-      "rawScore": 85,
+      "score": 86,
+      "rawScore": 86,
       "scoreCap": 100,
       "weight": 8,
       "status": "measured",
@@ -161,7 +161,7 @@
       "summary": "collector 耗时不是上游发布到页面可见的端到端延迟；以成功运行比例作为实时性估算。",
       "evidence": {
         "latestSourceRuns": 217,
-        "latestRunSuccess": 216,
+        "latestRunSuccess": 217,
         "freshHealthySources": 143,
         "activeWithRecentSuccess": 124,
         "endToEndLatencySamples": 0
@@ -232,7 +232,7 @@
         "licenseDeclared": 417,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 2085,
+        "totalEvents": 2167,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 65, evidence coverage 72%, final score 61",
-  "startedAt": "2026-08-19T13:19:02.374Z",
-  "finishedAt": "2026-08-19T13:19:02.526Z",
+  "startedAt": "2026-08-20T13:22:34.326Z",
+  "finishedAt": "2026-08-20T13:22:34.519Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",

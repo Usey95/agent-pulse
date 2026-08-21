@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "57b50e2c-5335-438f-a485-49ae267bf63d",
+  "id": "1d19129e-7e77-4f11-9022-260dce55c80b",
   "releaseVersion": "0.11.1",
   "status": "partial",
   "overallScore": 61,
@@ -63,14 +63,14 @@
       "scoreCap": 100,
       "weight": 10,
       "status": "measured",
-      "sampleSize": 14419,
+      "sampleSize": 14777,
       "sampleTarget": 100,
-      "summary": "14419 条信号中 10600 条来自 primary/research/policy，2830 条证据进入事件。",
+      "summary": "14777 条信号中 10873 条来自 primary/research/policy，2939 条证据进入事件。",
       "evidence": {
-        "signals": 14419,
-        "direct": 14419,
-        "primary": 10600,
-        "linkedEvidence": 2830,
+        "signals": 14777,
+        "direct": 14777,
+        "primary": 10873,
+        "linkedEvidence": 2939,
         "linkedSourceCount": 154,
         "aggregatorDebt": 0
       },
@@ -181,14 +181,14 @@
       "status": "measured",
       "sampleSize": 265,
       "sampleTarget": 100,
-      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 10 个。",
+      "summary": "143/265 个健康来源在 7 天窗口内有新内容，最近 30 天公开事件 5 个。",
       "evidence": {
         "healthy": 265,
         "freshHealthy": 143,
         "active": 126,
         "activeWithRecentSuccess": 124,
         "published": 368,
-        "recentPublished": 10
+        "recentPublished": 5
       },
       "penalties": [],
       "nextAction": "按 cadence 衡量来源 freshness lag，并补齐从事件发生到页面发布的延迟。"
@@ -232,7 +232,7 @@
         "licenseDeclared": 417,
         "restrictedEnabled": 0,
         "readyEvents": 343,
-        "totalEvents": 2167,
+        "totalEvents": 2249,
         "rollbackDrills": 0
       },
       "penalties": [
@@ -685,8 +685,8 @@
     }
   ],
   "notes": "3 dimensions lack sufficient evidence; calibrated weighted score 65, evidence coverage 72%, final score 61",
-  "startedAt": "2026-08-20T13:22:34.326Z",
-  "finishedAt": "2026-08-20T13:22:34.519Z",
+  "startedAt": "2026-08-21T13:21:47.392Z",
+  "finishedAt": "2026-08-21T13:21:47.592Z",
   "target": 80,
   "targetReached": false,
   "policy": "measured-evidence-only",
